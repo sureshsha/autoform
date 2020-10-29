@@ -1,0 +1,38 @@
+{
+  "name": "newsletter-automation",
+  "version": "1.0.0",
+  "description": "Puppeteer Automation scripts",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint '{,!(node_modules)/**/}*.js'",
+    "prettier": "prettier --write '*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "express": "^4.17.1",
+    "figlet": "^1.5.0",
+    "hbs": "^4.1.1",
+    "inquirer": "^7.3.3",
+    "json2xls": "^0.1.2",
+    "puppeteer": "^5.3.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-import-resolver-typescript": "^2.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.2"
+  },
+  "keywords": [
+    "Nodejs",
+    "Puppeteer",
+    "Automation"
+  ],
+  "author": "",
+  "license": "ISC"
+}

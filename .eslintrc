@@ -1,0 +1,45 @@
+{
+  "env": {
+    "commonjs": true,
+    "es2021": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["airbnb-base", "prettier", "plugin:import/typescript"],
+  "plugins": ["prettier"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "document": false
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {} // this loads <rootdir>/tsconfig.json to eslint
+    }
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "import/extensions": "off",
+    "import/no-unresolved": [
+      2, 
+      { "caseSensitive": false }
+   ],
+    "class-methods-use-this": "off",
+    "no-param-reassign": "off",
+    "camelcase": "off",
+    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
+    "max-len": ["error", { "code": 80, "ignoreUrls": true }],
+    "no-mixed-operators": "error",
+    "quotes": ["error", "double"],
+    "no-var": "error",
+    "indent": "error",
+    "no-multi-spaces": "error",
+    "space-in-parens": "error",
+    "no-multiple-empty-lines": "error",
+    "no-console": "off"
+  }
+}

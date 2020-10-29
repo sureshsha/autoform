@@ -1,0 +1,52 @@
+[
+  {
+    "userType": "User with no to all consents",
+    "title": "Mr.",
+    "name": "test 1",
+    "cognome": "test 1",
+    "email": "test@test321.com",
+    "marketing": "#marketing-no-nl",
+    "profilazione": "#profilazione-no-nl",
+    "terzi": "#terzi-no-nl"
+  },
+  {
+    "userType": "User with yes to all consents",
+    "title": "Mr.",
+    "name": "test 2",
+    "cognome": "test 2",
+    "email": "test@test123.com",
+    "marketing": "#marketing-yes-nl",
+    "profilazione": "#profilazione-yes-nl",
+    "terzi": "#terzi-yes-nl"
+  },
+  {
+    "userType": "User with yes to marketing and no to others",
+    "title": "Mr.",
+    "name": "test 2",
+    "cognome": "test 2",
+    "email": "test@test123.com",
+    "marketing": "#marketing-yes-nl",
+    "profilazione": "#profilazione-no-nl",
+    "terzi": "#terzi-no-nl"
+  },
+  {
+    "userType": "User with yes to profilazione and no to others",
+    "title": "Mr.",
+    "name": "test 2",
+    "cognome": "test 2",
+    "email": "test@test123.com",
+    "marketing": "#marketing-no-nl",
+    "profilazione": "#profilazione-yes-nl",
+    "terzi": "#terzi-no-nl"
+  },
+  {
+    "userType": "User with yes to terzi and no to others",
+    "title": "Mr.",
+    "name": "test 2",
+    "cognome": "test 2",
+    "email": "test@test123.com",
+    "marketing": "#marketing-no-nl",
+    "profilazione": "#profilazione-no-nl",
+    "terzi": "#terzi-yes-nl"
+  }
+]
